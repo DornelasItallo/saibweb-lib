@@ -1,7 +1,7 @@
 {
   "name": "saibweb-lib",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,9 +11,6 @@
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
     "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc"
   },
-  "files": [
-    "dist"
-  ],
   "exports": {
     ".": {
       "import": "./dist/saibweb-lib.es.js",
